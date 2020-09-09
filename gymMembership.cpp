@@ -1,4 +1,4 @@
-/* gymMembership.cpp : This file cwill print out the pricing information for the gym including discounts. 
+/* gymMembership.cpp : This file will print out the pricing information for the gym including discounts. 
 it will prompt the user to type in if they want to calculate the gym cost or quit the propgram. After storing and calculating, it will re-prompt the user until it is told to quit. */
 //Huy trieu
 

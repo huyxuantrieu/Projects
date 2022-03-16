@@ -1,8 +1,6 @@
 from requests_html import HTMLSession
 from flask import Flask, request, render_template
-# pip install request-html
-# pip install -r requirements.txt
-# pip install requests bs4 https://stackoverflow.com/questions/33469735/beautiful-soup-works-sometimes
+
 
 app = Flask(__name__)
 
@@ -25,7 +23,8 @@ def getProductDetails(url):
 
             product = {
                 'Product Name': req.html.xpath('//*[@id="productTitle"]', first=True).text,
-                'Price': req.html.xpath('//*[@id="corePriceDisplay_desktop_feature_div"]/div[1]/span/span[2]/span[2]', first=True).text + req.html.xpath('//*[@id="corePriceDisplay_desktop_feature_div"]/div[1]/span/span[2]/span[3]', first=True).text}
+                'Price': req.html.xpath('//*[@id="corePriceDisplay_desktop_feature_div"]/div[1]/span/span[2]/span[2]', first=True).text
+                + req.html.xpath('//*[@id="corePriceDisplay_desktop_feature_div"]/div[1]/span/span[2]/span[3]', first=True).text}
 
             return product
         except AttributeError:

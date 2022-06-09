@@ -198,7 +198,6 @@ function AddTenant() {
                             <Button size="sm" onClick={() => { updateLeaseLength(val.id) }}> Update Lease Length</Button>
                             <Input variant="flushed" type="text" placeholder="Update Rent Amount" onChange={(e) => { setNewRent(e.target.value) }} />
                             <Button size="sm" onClick={() => { updateRent(val.id) }}> Update Rent</Button>
-                            <text></text>
                             <Button size="sm" onClick={() => { deleteTenant(val.id) }} > Delete </Button>
                         </div>
                         <br></br>

@@ -8,5 +8,7 @@ npm install mysql express cors
 
 #### client:
 npm i @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^6
+
 npm install emailjs-com --save
+
 npm install react-router-dom axios

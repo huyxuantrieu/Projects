@@ -1,5 +1,7 @@
 # Property Management App
 
+(work in progress)
+
 ## This application allow users to add tenants to a database (MySQL) and also communicate to landlords and tenants via email using a form field.
 
 ### Library Installation Required:

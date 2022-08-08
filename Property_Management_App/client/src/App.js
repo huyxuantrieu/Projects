@@ -5,6 +5,7 @@ import Home from './components/Home';
 import ContactForm from './components/ContactForm.js';
 import AddTenant from './components/AddTenant.js';
 import Background from './components/Background';
+import Todo from './components/Todo.js';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/ContactForm" element={<ContactForm />} />
             <Route path="/NewUserForm" element={<AddTenant />} />
+            <Route path="/Todo" element={<Todo />} />
           </Routes>
         </BrowserRouter>
       </div>

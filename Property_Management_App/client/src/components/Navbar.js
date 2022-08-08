@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom'
 
 
@@ -13,6 +12,9 @@ function Navbar() {
             <br></br>
 
             <Link to="/NewUserForm"> New Tenant Form</Link>
+            <br></br>
+
+            <Link to="/Todo"> Todo List</Link>
             <br></br>
         </div >
 

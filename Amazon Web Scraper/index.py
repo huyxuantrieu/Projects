@@ -12,7 +12,6 @@ f.close()
 
 print(urlList)
 
-
 def getProductDetails(url):
     x = 0
     while (x < 30):
